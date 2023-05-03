@@ -1,0 +1,141 @@
+@import "Event.css";
+@import "Event2.css";
+/* TEAMS */
+
+*{
+    font-family:fantasy;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    height: 45vh;
+
+
+}
+.teams4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    height: 45vh;
+
+}
+.teams div{
+    display: flex;
+    flex-direction: column;
+}
+.teams input{
+    box-shadow: 1px 1px 5px 1px black;
+    border: 2px solid;
+    background-color: transparent;
+    transition: .1s;
+    outline: none;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 20px;
+    
+}
+.teams4 div{
+    display: flex;
+    flex-direction: column;
+}
+.teams4 input{
+    box-shadow: 1px 1px 5px 1px black;
+    border: 2px solid;
+    background-color: transparent;
+    transition: .1s;
+    outline: none;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 20px;
+}
+.teams div label{
+    color: white;
+    max-width: max-content;
+    padding: 2px;
+    border-radius: 7px;
+    
+}
+.teams4 div label{
+    color: white;
+    max-width: max-content;
+    padding: 2px;
+    border-radius: 7px;
+}
+/* -------------------------------------------------------------------------------------------*/
+.start{
+    background-color: chocolate;
+    border: 2px solid black;
+    border-radius:1000px;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    
+}
+.startA{
+    text-decoration: none;
+    color: black;
+}
+.mainLanding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 55px;
+
+}
+.forms .firstInput{
+    box-shadow: 1px 1px 5px 1px black;
+    border: 2px solid;
+    background-color: transparent;
+    transition: .1s;
+    
+}
+.forms .secondInput{
+    box-shadow: 1px 1px 1px 1px white;
+    border: 2px solid;
+    background-color: transparent;
+    transition: .1s;
+    
+}
+.forms .firstInput:focus{
+    outline: none;
+    border:2px double grey;
+    transform: scale(1.05);
+    
+    
+}
+.forms .secondInput:focus{
+    outline: none;
+    border:2px double grey;
+    transform: scale(1.05);
+    color :white;
+    
+}
+
+.save{
+    border: 2px solid black;
+    color: white;
+    background-color: chocolate;
+    box-shadow: 0px 2px 5px 1px black;
+}
+.title{
+    margin: 10px;
+    background-color: chocolate;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* ONE OR TWO-----------------------------------------------------------------------*/
+.oneORTwo{
+    display: flex;
+    border: 2px solid rgb(126, 119, 109);
+    border-radius: 20px;
+}

@@ -1,0 +1,164 @@
+
+
+body{
+    background-color:rgb(184, 170, 151)
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+}
+.forms label{
+    text-align: center;
+    padding: 1px;
+    color:rgb(82, 73, 63);
+    
+}
+.forms button{
+    background-color: rgb(88, 129, 27);
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.firstPart{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 100px;
+    
+}
+.secondPart{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 100px;
+}
+.secondInput{
+    color: white;
+}
+.firstInput{
+    color: black;
+}
+#table2{
+    color: white;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    row-gap: 20px;
+}
+#table{
+    color: rgba(0, 0, 0, 0.986);
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.firstForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.secondForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.newGame{
+    background-color: rgb(252, 227, 1);
+    color: black;
+    width: 75px;
+    
+    /*transform: translateY(50px);*/
+
+    
+}
+.calculate{
+    background-color: rgba(10, 123, 158, 0.966);
+    width: 75px;
+
+}
+.popup-content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+    background: rgb(252, 227, 1);
+    
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.buttonGroup a {
+    color: red;
+    scale: 2;
+    text-decoration: none;
+}
+#hesap{
+    max-width: 80px;
+    max-height: 20px;
+    font-size: larger;
+
+}
+
+
+.hesapSection{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+}
+#people{
+    max-width: 80px;
+    max-height: 20px;
+}
+.gösterge{
+    width: 100px;
+    overflow-x:hidden;
+    height: 50px;
+}
+.close{
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color:red;
+    
+
+}
+.close:active{
+    color: black;
+}
+.forms input{
+    font-size: 15px;
+}
+.mainpageBtn i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: scale(2);
+    color: black;
+
+}
+.table td{
+    border: 0.5px solid black;
+    padding: 4px;
+
+}
+.sikicem{
+    display: flex;
+    column-gap: 2px;
+    max-height: 50px;
+    max-width: 400px;
+}
